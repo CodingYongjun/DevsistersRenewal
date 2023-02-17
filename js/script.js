@@ -18,12 +18,14 @@ $(window).on('mousewheel',function(event){
     }
 });
 
-let winH=$(window).height();
-if($(window).width()>1024){
-    $('.section').height(winH);
-}
-$('.content1').height(winH);
-$('.mv>video').height(winH);
+$(window).on('resize',function(){
+    let winH=$(window).height();
+    if($(window).width()>1024){
+        $('.section').height(winH);
+    }
+    $('.content1').height(winH);
+    $('.mv>video').height(winH);
+})
 
 $('.mv>video').trigger('pause');
 $('.mv').eq(0).children('video').trigger('play');
