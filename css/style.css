@@ -1,27 +1,5 @@
 @charset "utf-8";
-
-body,header,nav,section,footer,figure,figcaption,ul,li,h1,h2,h3,div,p,span,em,button,address{
-	margin: 0px;
-	padding: 0px;
-}
-ul{ list-style: none; }
-a{ text-decoration: none; }
-img{
-	display: block;
-	border: 0px;
-}
-hr{
-	display: none;
-}
-body{
-	font-size: 14px;
-	font-family:"Arial",sans-serif;
-	-ms-overflow-style: none;
-    scrollbar-width: none;
-}
-body::-webkit-scrollbar {
-    display: none;
-}
+@import "default.css";
 
 #main_header{
 	position: absolute;
@@ -162,7 +140,7 @@ body::-webkit-scrollbar {
 	background: #fff;
 	border-radius: 25px;
 	margin: 0px auto;
-	animation: scroll .7s ease-out infinite alternate;;
+	animation: scroll .7s ease-out infinite alternate;
 }
 .scroll_down>p{
 	text-align: center;
