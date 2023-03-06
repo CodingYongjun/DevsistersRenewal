@@ -22,3 +22,7 @@ body{
 body::-webkit-scrollbar {
     display: none;
 }
+button{
+	display: block;
+	border: 0px;
+}
