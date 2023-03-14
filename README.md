@@ -41,7 +41,7 @@
     </div>
     <br>
     <ul>
-      <li>  메인 홈페이지는 각각의 section 마다 width 값을 100% height 값을 jquery로 window.height 이벤트를 사용하여 높이를 주어 직접 fullpage를 구현 하였습니다.</li>
+      <li>  메인 홈페이지는 각각의 section 마다 width 값을 100% height 값을 jquery로 window.height 함수를 사용하여 높이를 주어 직접 fullpage를 구현 하였습니다.</li>
       <li>  jquery.mousewheel , jquery.easing 플러그인을 사용하여 풀페이지 효과를 사용하였습니다.</li>
     </ul>
   </li>
@@ -53,8 +53,8 @@
     </div>
     <br>
     <ul>
-      <li>  span태그의 width 값을 0 으로 준 뒤에 stop() , animate() 이벤트를 활용하여 동영상 시간의 맞게 width 값이 늘어나게 해주어 동영상에 플레이된 시간을 표시되게 해주었습니다.</li>
-      <li>  trigger('pause') , children() , get().play() 이벤트를 활용해서 동영상을 강제로 멈추게 한뒤에 다음 동영상이 자식요소로 들어오게 한뒤 동영상이 플레이되게 해주었으며<br> setInterval() 을 활용해 플레이 동영상의 시간이 지나면 다음 동영상으로 넘어가게 해주었습니다.</li>
+      <li>  span태그의 width 값을 0 으로 준 뒤에 stop() , animate() 함수를 활용하여 동영상 시간의 맞게 width 값이 늘어나게 해주어 동영상에 플레이된 시간을 표시되게 해주었습니다.</li>
+      <li>  trigger('pause') , children() , get().play() 함수를 활용해서 동영상을 강제로 멈추게 한뒤에 다음 동영상이 자식요소로 들어오게 한뒤 동영상이 플레이되게 해주었으며<br> setInterval() 을 활용해 플레이 동영상의 시간이 지나면 다음 동영상으로 넘어가게 해주었습니다.</li>
     </ul>
   </li>
   <li>
